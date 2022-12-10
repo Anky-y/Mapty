@@ -88,6 +88,8 @@ a:visited {
   font-size: 1.7rem;
   font-weight: 600;
   grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
 }
 
 .workout__details {
@@ -112,7 +114,35 @@ a:visited {
   text-transform: uppercase;
   font-weight: 800;
 }
+.btn-reset {
+  background-color: var(--color-dark--2);
+  width: 20%;
+  height: 2.5%;
+  margin-left: auto;
+  margin-bottom: 1rem;
+  color: var(--color-light--2);
+  font-family: 'Manrope', sans-serif;
+  cursor: pointer;
+  text-transform: uppercase;
+  /* border-radius: 1px; */
+}
 
+.btn-reset:active {
+  background-color: var(--color-light--1);
+}
+
+.btn-close {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 10px;
+  /* text-align: center; */
+  cursor: pointer;
+  background-color: var(--color-light--2);
+}
+
+.btn-close:active {
+  background-color: var(--color-light--1);
+}
 .form {
   background-color: var(--color-dark--2);
   border-radius: 5px;
